@@ -1,0 +1,40 @@
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 10px;
+
+  cursor: pointer;
+
+  color: #4d5562;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background-color: white;
+
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  gap: 10px;
+
+  svg path {
+    stroke: #4d5562;
+  }
+
+  &--active {
+    cursor: default;
+
+    border-color: var(--secondary-gray);
+    border-radius: 5px;
+
+    svg path {
+      stroke: var(--royal-blue);
+    }
+  }
+
+  &__text::first-letter {
+    text-transform: uppercase;
+  }
+}
