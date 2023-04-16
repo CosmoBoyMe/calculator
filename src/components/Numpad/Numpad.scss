@@ -1,0 +1,14 @@
+.numpad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 48px);
+  gap: 8px;
+
+  width: 100%;
+
+  background-color: white;
+
+  &__item--large {
+    grid-column: span 2;
+  }
+}
