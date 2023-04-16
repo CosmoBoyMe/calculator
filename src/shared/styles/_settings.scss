@@ -10,9 +10,14 @@ html,
 body {
   height: 100%;
 
-  font-size: 14px;
+  color: var(--main-color);
+
+  background-color: white;
+
+  font-family: var(--main-font);
+  font-size: 12px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 15px;
   scroll-behavior: smooth;
 }
 
