@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__inner {
+    width: 100%;
+    max-width: 540px;
+  }
+
+  &__tabs {
+    max-width: 244px;
+    margin-bottom: 30px;
+    margin-left: auto;
+  }
+
+  &__main {
+    display: grid;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 488px;
+    grid-template-columns: 240px 244px;
+    gap: 50px;
+  }
+
+  &__calculator {
+    grid-column: 2;
+  }
+}
+
